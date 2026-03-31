@@ -1,52 +1,157 @@
-📄 Brief Project Report
-Title: AI-Based Resume Analyzer & Shortlisting System
-1. Introduction
+# Project Report  
+## AI-Based Resume Analyzer and Shortlisting System  
 
-In today’s competitive environment, students often struggle to understand whether their skills and profile match the requirements of a particular job role. This project is designed to provide a simple solution to that problem by analyzing a candidate’s profile and giving feedback.
+---
 
-2. Objective
+## 1. Introduction  
+In today’s competitive environment, students often find it difficult to understand whether their skills match job requirements. This project presents a simple system that analyzes a candidate’s profile and evaluates their suitability for a selected role.  
 
-The main objective of this project is to:
+- Considers skills, CGPA, projects, and internship experience  
+- Provides feedback and improvement suggestions  
 
-Evaluate a candidate’s profile based on skills, CGPA, projects, and internship
-Simulate a basic hiring system
-Provide suggestions for improvement
-3. Methodology
+---
 
-The system takes user input such as skills, CGPA, number of projects, internship experience, and desired job role. It then compares the user’s skills with the required skills for that role.
+## 2. Problem Statement  
+Students commonly face:  
 
-A scoring system is used where:
+- Lack of clarity about job requirements  
+- Difficulty in evaluating their own skills  
+- No clear direction for improvement  
 
-Skills contribute 50 marks
-CGPA contributes 20 marks
-Projects contribute 15 marks
-Internship contributes 15 marks
+This project aims to:  
 
-Based on the total score, the system classifies the candidate and decides whether they are selected or not.
+- Analyze a candidate’s profile  
+- Provide a selection result  
+- Suggest areas of improvement  
 
-4. Features
-Role-based analysis
-Skill matching
-Score calculation
-Candidate classification
-Missing skill detection
-Suggestions for improvement
-Alternative role suggestion
-5. Technologies Used
-Python
-Visual Studio Code
-6. Results
+---
 
-The system successfully analyzes different profiles and provides:
+## 3. Objective  
 
-Score and classification
-Missing skills
-Suggestions for improvement
-Alternative job roles
-7. AI/ML Relevance
+- Analyze a candidate’s profile using simple logic  
+- Simulate a basic hiring system  
+- Provide feedback and improvement suggestions  
+- Demonstrate AI-inspired decision-making  
 
-This project uses AI-inspired concepts such as rule-based decision making, feature evaluation, and scoring systems. It demonstrates how simple logic can simulate intelligent decision-making.
+---
 
-8. Conclusion
+## 4. Methodology  
 
-This project shows how a basic system can help students evaluate their profiles and understand what they need to improve. It can be further enhanced by using real datasets and machine learning models.
+- **User Input:**  
+  - Skills  
+  - CGPA  
+  - Number of projects  
+  - Internship experience  
+  - Desired job role  
+
+- **Processing:**  
+  - Inputs are standardized to avoid mismatches  
+
+- **Skill Matching:**  
+  - Compare user skills with required skills  
+  - Identify matched and missing skills  
+
+- **Scoring System:**  
+  - Skills: 50 marks  
+  - CGPA: 20 marks  
+  - Projects: 15 marks  
+  - Internship: 15 marks  
+
+- **Decision Criteria:**  
+  - 80 and above: Strong candidate  
+  - 60–79: Average candidate  
+  - Below 60: Needs improvement  
+
+- **Suggestions:**  
+  - Based on missing skills and profile gaps  
+
+- **Alternative Role:**  
+  - Suggested using skill overlap  
+
+---
+
+## 5. Dataset Description  
+
+- Manually created dataset of common engineering roles  
+- Each role includes required skills  
+- Designed to simulate real-world hiring scenarios  
+
+---
+
+## 6. Features  
+
+- Role-based analysis  
+- Skill matching and scoring  
+- Candidate classification  
+- Missing skill detection  
+- Suggestions for improvement  
+- Alternative role suggestion  
+
+---
+
+## 7. Technologies Used  
+
+- Python  
+- Visual Studio Code  
+
+---
+
+## 8. Implementation  
+
+- Uses basic Python concepts  
+- Conditional statements (if-else)  
+- Loops  
+- Lists and dictionaries  
+- Set operations  
+- No external libraries used  
+
+---
+
+## 9. Results  
+
+The system can:  
+
+- Evaluate different profiles  
+- Identify missing skills  
+- Provide suggestions  
+- Recommend alternative roles  
+
+---
+
+## 10. AI/ML Relevance  
+
+- Rule-based decision making  
+- Feature-based evaluation  
+- Recommendation system logic  
+- Simulates basic AI behavior using simple logic  
+
+---
+
+## 11. Advantages  
+
+- Easy to use  
+- Simple implementation  
+- Provides clear feedback  
+
+---
+
+## 12. Limitations  
+
+- Uses a manually created dataset  
+- Limited to predefined roles  
+- No advanced machine learning models  
+
+---
+
+## 13. Future Improvements  
+
+- Use real datasets  
+- Integrate machine learning models  
+- Build a graphical interface  
+- Allow resume file input  
+
+---
+
+## 14. Conclusion  
+
+This project demonstrates how a simple system can analyze a candidate’s profile and provide useful feedback. It highlights the importance of skills and experience in job selection and shows how basic AI-inspired logic can be applied to solve practical problems.
